@@ -1,5 +1,5 @@
 LATEX_COMPILER = pdflatex
-LATEX_COMPILER_FLAGS = -interaction=nonstopmode
+LATEX_COMPILER_FLAGS = -interaction=batchmode
 BIBLIO_COMPILER = bibtex
 BIBLIO_COMPILER_FLAGS =
 

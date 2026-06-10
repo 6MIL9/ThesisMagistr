@@ -73,6 +73,13 @@ times % use Times font as main
 % Установка глубины оглавления
 \setcounter{tocdepth}{2}
 
+% Убрать точку после номера раздела/подраздела в оглавлении (disser добавляет через tocpostthe*)
+\makeatletter
+\renewcommand{\tocpostthesection}{\@postskip}
+\renewcommand{\tocpostthesubsection}{\@postskip}
+\renewcommand{\tocpostthesubsubsection}{\@postskip}
+\makeatother
+
 % Указание папки для поиска изображений
 \graphicspath{{images/}}
 
